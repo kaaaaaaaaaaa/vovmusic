@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/border_bg.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/btn_loginfb.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/btn_logingg.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/btn_loginzl.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/custom_seekbar.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/edittext_bg.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_add.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_add_1.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_add_playlist.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_angle_down.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_angle_left.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_angle_right.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_back.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_bell.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_chart.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_close.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_close_1.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_comment.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_comment_1.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_delete.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_delete_all.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_delete_playlist.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_download.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_edit.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_error.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_favorite.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_home.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_like.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_logo.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_logo_small.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_logo_transparent.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_logout.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_loop.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_loop_check.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_lovesong.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_menu_dots_vertical.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_microphone.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_music_alt.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_music_note.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_next.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_next2.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_not_favorite.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_pause.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_pause2.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_play_1.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_play_2.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_play_2_pink.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_playlist_cover.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_prev.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_radio.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_search.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_send.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_setting.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_share.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_shuffle.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/ic_shuffle_check.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/logo_facebook.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/logo_google.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/logo_zalo.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_corner_10dp.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_corner_10dp_border.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_corner_10dp_border_1.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_corner_16dp.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_corner_16dp_topleft_topright.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_corner_20dp.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_corner_gradient1_10dp.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_corner_gradient2_10dp.xml" value="0.35208333333333336" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_corner_gray_10dp.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_corner_white_20dp_topleft_topright.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_gradient.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_oval_corner_40dp.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_shadow_1.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_shadow_2.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/drawable/shape_shadow_3.xml" value="0.328125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/font/comfortaa.xml" value="0.3703125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/font/font_Rubik.xml" value="0.3703125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/activity_add_update.xml" value="0.25" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/activity_full.xml" value="0.33" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/activity_full_player.xml" value="0.22" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/activity_genre.xml" value="0.5" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/activity_main.xml" value="0.2234375" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/activity_personal_page.xml" value="0.33" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/activity_personal_playlist.xml" value="0.25" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/activity_radio.xml" value="0.2234375" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/activity_search.xml" value="0.5" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/activity_song.xml" value="0.22" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/activity_youtube.xml" value="0.33" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/border_bg.xml" value="0.21510416666666668" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/fragment_chart.xml" value="0.25" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/fragment_detail_player.xml" value="0.2234375" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/fragment_full_player.xml" value="0.25" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/fragment_lyrics_player.xml" value="0.22" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/fragment_miniplayer.xml" value="0.33" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/fragment_personal_playlist.xml" value="0.33" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/fragment_radio.xml" value="0.2" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/fragment_setting.xml" value="0.33" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/item_album_home.xml" value="0.33" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/item_comment.xml" value="0.2234375" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/item_genre.xml" value="0.25" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/item_image_slider.xml" value="0.2234375" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/item_playlist_home.xml" value="0.2234375" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/item_shimmer_album.xml" value="0.33" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/item_shimmer_comment.xml" value="0.3078125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/item_shimmer_playlist.xml" value="0.2234375" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/item_shimmer_song.xml" value="0.2234375" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/item_shimmer_theme.xml" value="0.2234375" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/item_song.xml" value="0.33" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/item_theme_home.xml" value="0.2234375" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/item_top_song.xml" value="0.25" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/item_user_playlist.xml" value="0.2" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/layout_add_song_to_playlist_dialog.xml" value="0.25" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/layout_comment_song.xml" value="0.3078125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/layout_edittext_dialog.xml" value="0.33" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/layout_feedback_app.xml" value="0.3078125" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/layout_loading_dialog.xml" value="0.25" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/layout_song_more.xml" value="0.5" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/layout_textview_dialog.xml" value="0.33" />
+        <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/layout_userplaylist_more.xml" value="0.33" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/btn_loginfb.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/btn_logingg.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/ic_copy.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/ic_delete.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/logo_facebook.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/logo_google.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/shape_corner_10dp_border.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/shape_corner_10dp_border_1.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/shape_corner_16dp.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/shape_corner_16dp_topleft_topright.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/shape_corner_gradient1_10dp.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/shape_corner_gradient2_10dp.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/shape_corner_white_20dp_topleft_topright.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/shape_gradient.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/shape_oval_corner_40dp.xml" value="0.2703125" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/activity_full.xml" value="0.23777173913043478" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/activity_full_player.xml" value="0.23777173913043478" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/activity_main.xml" value="0.2078804347826087" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/activity_personal_page.xml" value="0.22509057971014493" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/activity_personal_playlist.xml" value="0.20606884057971014" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/activity_radio.xml" value="0.24728260869565216" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/activity_search.xml" value="0.1793478260869565" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/fragment_full_player.xml" value="0.21603260869565216" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/fragment_home.xml" value="0.2223731884057971" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/fragment_lyrics_player.xml" value="0.17300724637681159" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/fragment_miniplayer.xml" value="0.2223731884057971" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/fragment_personal_playlist.xml" value="0.19429347826086957" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/fragment_radio.xml" value="0.24728260869565216" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/fragment_setting.xml" value="0.264" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/item_album_home.xml" value="0.2223731884057971" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/item_comment.xml" value="0.245018115942029" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/item_genre.xml" value="0.20606884057971014" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/item_shimmer_song.xml" value="0.2259963768115942" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/item_song.xml" value="0.2078804347826087" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/item_theme_home.xml" value="0.20606884057971014" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/item_top_song.xml" value="0.245018115942029" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/item_user_playlist.xml" value="0.245018115942029" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/layout_add_song_to_playlist_dialog.xml" value="0.245018115942029" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/layout_comment_song.xml" value="0.21603260869565216" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/layout_edittext_dialog.xml" value="0.21965579710144928" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/layout_feedback_app.xml" value="0.23233695652173914" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/layout_loading_dialog.xml" value="0.223731884057971" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/layout_song_more.xml" value="0.4" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/layout_textview_dialog.xml" value="0.223731884057971" />
+        <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/layout/layout_userplaylist_more.xml" value="0.245018115942029" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

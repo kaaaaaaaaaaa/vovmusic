@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vovmusic.uit">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.vovmusic.uit.application.MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IMusic"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name="com.vovmusic.uit.activities.AddUpdateActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vovmusic.uit.activities.YoutubeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vovmusic.uit.activities.RadioActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vovmusic.uit.activities.GenreActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vovmusic.uit.activities.PersonalPlaylistActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vovmusic.uit.activities.PersonalPageActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vovmusic.uit.activities.SongActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vovmusic.uit.activities.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vovmusic.uit.activities.FullPlayerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vovmusic.uit.activities.FullActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vovmusic.uit.activities.MainActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8151267593746824~1770590820" />
+
+        <service android:name="com.vovmusic.uit.services.MiniPlayerOnLockScreenService" />
+        <receiver android:name="com.vovmusic.uit.services.NotificationActionService" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <!-- Facebook -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme"
+                    tools:ignore="ManifestResource" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

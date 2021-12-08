@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_corner_white_20dp_topleft_topright"
+    android:paddingLeft="10dp"
+    android:paddingTop="15dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp">
+
+    <RelativeLayout
+        android:id="@+id/rlInfoSongComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvInfoSongImageComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            app:cardCornerRadius="5dp">
+
+            <ImageView
+                android:id="@+id/ivInfoSongImageComment"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/logovov" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/llSongInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/cvInfoSongImageComment"
+            android:layout_alignBottom="@+id/cvInfoSongImageComment"
+            android:layout_toStartOf="@+id/ivClose"
+            android:layout_toEndOf="@+id/cvInfoSongImageComment"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvInfoSongNameComment"
+                style="@style/tvStyle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="10dp"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:text="@string/tvChartSongName"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvInfoSongSingerComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/comfortaa"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/tvChartSongSinger"
+                android:textColor="@color/colorLight9"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/llSongInfo"
+            android:layout_alignBottom="@+id/llSongInfo"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            app:srcCompat="@drawable/ic_close_1" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/vDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rlInfoSongComment"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorMain6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rlBottom"
+        android:layout_below="@+id/vDivider"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/sflItemComment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include layout="@layout/item_shimmer_comment" />
+
+                <include layout="@layout/item_shimmer_comment" />
+
+                <include layout="@layout/item_shimmer_comment" />
+
+                <include layout="@layout/item_shimmer_comment" />
+
+                <include layout="@layout/item_shimmer_comment" />
+
+                <include layout="@layout/item_shimmer_comment" />
+
+                <include layout="@layout/item_shimmer_comment" />
+
+                <include layout="@layout/item_shimmer_comment" />
+
+                <include layout="@layout/item_shimmer_comment" />
+
+                <include layout="@layout/item_shimmer_comment" />
+
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <ImageView
+            android:id="@+id/ivIconComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_comment_1" />
+
+        <TextView
+            android:id="@+id/tvNullComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="marquee"
+            android:fontFamily="@font/comfortaa"
+            android:lineSpacingExtra="5dp"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:text="@string/tvEmptyComment"
+            android:textAlignment="center"
+            android:textColor="@color/colorLight9"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvComment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layoutAnimation="@anim/layout_down_to_up"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civYourAvatarComment"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:src="@drawable/logovov"
+            app:civ_border_color="@color/secondColor"
+            app:civ_border_width="1dp" />
+
+        <EditText
+            android:id="@+id/etInputComment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_alignTop="@+id/civYourAvatarComment"
+            android:layout_alignBottom="@+id/civYourAvatarComment"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@+id/ivSend"
+            android:layout_toEndOf="@+id/civYourAvatarComment"
+
+            android:maxHeight="100dp"
+            android:background="@drawable/shape_corner_10dp_border_1"
+            android:fontFamily="@font/comfortaa"
+            android:hint="@string/etHintComment"
+            android:maxLength="200"
+            android:overScrollMode="always"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:textColor="@color/colorLight9"
+            android:textColorHint="@color/colorLight9"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/ivSend"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/civYourAvatarComment"
+            android:layout_alignBottom="@+id/civYourAvatarComment"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            app:srcCompat="@drawable/ic_send" />
+    </RelativeLayout>
+</RelativeLayout>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorMain1">#FFFFFF</color>
+    <color name="colorMain2">#000000</color>
+
+    <color name="colorMain3">#F475C2</color>
+
+    <color name="colorMain4">#FF0000</color>
+    <color name="colorMain5">#CAE7FF</color>
+    <color name="colorMain6">#5C6163</color>
+    <color name="colorMain7">#FFE500</color>
+    <color name="colorMain8">#66BB6A</color>
+
+    <color name="btn_loginfb">#1877F2</color>
+    <color name="btn_loginzl">#333333</color>
+
+    <color name="colorGradient1">#F5576C</color>
+    <color name="colorGradient2">#F093FB</color>
+
+    <color name="colorGradient3">#868F96</color>
+    <color name="colorGradient4">#596164</color>
+
+    <!-- - - - - - - - - - Light Mode - - - - - - - - - -->
+    <color name="colorLight1">#FFFFFF</color>
+    <color name="colorLight2">#1C1E21</color>
+    <color name="colorLight3">#F475C2</color>
+    <color name="colorLight4">#1E1E1E</color> // màu chủ đạo tối
+    <color name="colorLight5">#5C6163</color>
+    <color name="colorLight6">#353535</color> // Thanh toolbar
+    <color name="colorLight7">#FFFFFF</color> // Màu chữ tối
+    <color name="colorLight8">#FFFFFF</color>
+    <color name="colorLight9">#9C9C9C</color>
+    <color name="colorLight10">#F1F1F1</color>
+    <color name="colorLight11">#ECECEC</color>
+    <color name="colorLight12">#BFBFBF</color>
+    <color name="colorLight13">#DDDDDD</color>
+</resources>

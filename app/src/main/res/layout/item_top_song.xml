@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@color/mainColor"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvChartNumber"
+        style="@style/tvStyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="2dp"
+        android:text="@string/tvChartNumber"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSongImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="0dp"
+        app:cardUseCompatPadding="false">
+
+        <ImageView
+            android:id="@+id/ivSongChartImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/logovov" />
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/rlTopSongInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cvSongImage"
+        android:layout_alignBottom="@+id/cvSongImage"
+        android:layout_toStartOf="@+id/ivChartSongMore"
+        android:layout_toEndOf="@+id/cvSongImage">
+
+        <TextView
+            android:id="@+id/tvChartSongName"
+            style="@style/tvStyle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:text="@string/tvChartSongName"
+            android:textColor="@color/colorLight2"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvChartSongSinger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvChartSongName"
+            android:layout_alignStart="@+id/tvChartSongName"
+            android:layout_marginTop="2dp"
+            android:ellipsize="marquee"
+            android:fontFamily="@font/comfortaa"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/tvChartSongSinger"
+            android:textColor="#A5C0FF"
+            android:textSize="11sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/ivLike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvChartSongSinger"
+            android:layout_alignParentBottom="true"
+            app:srcCompat="@drawable/ic_like" />
+
+        <TextView
+            android:id="@+id/tvChartLikeNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ivLike"
+            android:layout_alignBottom="@+id/ivLike"
+            android:layout_marginStart="3dp"
+            android:layout_toEndOf="@+id/ivLike"
+            android:gravity="center"
+            android:text="@string/tvLikeNumber"
+            android:textAlignment="center"
+            android:textColor="@color/colorLight2"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ivChartSongMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rlTopSongInfo"
+        android:layout_alignBottom="@+id/rlTopSongInfo"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:padding="2dp"
+        app:srcCompat="@drawable/ic_menu_dots_vertical" />
+</RelativeLayout>

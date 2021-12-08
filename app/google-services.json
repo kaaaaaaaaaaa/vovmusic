@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "792556654460",
+    "project_id": "imusic-3e9a5",
+    "storage_bucket": "imusic-3e9a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792556654460:android:b3f3b2336993e3a21d1ef9",
+        "android_client_info": {
+          "package_name": "com.thanguit.imusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792556654460-s64bqnppukjocvnhh7pba7tgphs24lb5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thanguit.imusic",
+            "certificate_hash": "eaa275a3701eeec4c7f37999bf63bbebfef755c5"
+          }
+        },
+        {
+          "client_id": "792556654460-9um4rpsgko2v3rq2ub5188tn0cbv9qj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmwr8-H6tkC4RNm-2GsMNEmMUDkKtnNBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792556654460-9um4rpsgko2v3rq2ub5188tn0cbv9qj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

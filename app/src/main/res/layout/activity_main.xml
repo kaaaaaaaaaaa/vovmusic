@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMain1"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/imvLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logovov" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvAppName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/imvLogo"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:ellipsize="marquee"-->
+<!--        android:fontFamily="@font/comfortaa"-->
+<!--        android:marqueeRepeatLimit="marquee_forever"-->
+<!--        android:scrollHorizontally="true"-->
+<!--        android:singleLine="true"-->
+<!--        android:text="@string/app_name"-->
+<!--        android:textColor="@color/colorMain2"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold" />-->
+
+    <Button
+        android:id="@+id/btnLoginFacebook"
+        style="@style/btnLogin"
+        android:layout_above="@+id/btnLoginGoogle"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_loginfb"
+        android:drawableStart="@drawable/logo_facebook"
+        android:text="@string/btnLoginFacebook" />
+
+    <Button
+        android:id="@+id/btnLoginGoogle"
+        style="@style/btnLogin"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_logingg"
+        android:drawableStart="@drawable/logo_google"
+        android:text="@string/btnLoginGoogle" />
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btnLoginZL"-->
+    <!--            style="@style/btnLogin"-->
+    <!--            android:layout_alignParentBottom="true"-->
+    <!--            android:layout_marginTop="30dp"-->
+    <!--            android:layout_marginBottom="30dp"-->
+    <!--            android:background="@drawable/btn_loginzl"-->
+    <!--            android:drawableStart="@drawable/logo_zalo"-->
+    <!--            android:text="@string/btnLoginZL" />-->
+</RelativeLayout>

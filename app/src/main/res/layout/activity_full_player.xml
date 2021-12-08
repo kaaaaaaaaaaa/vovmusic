@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    android:orientation="vertical"
+    tools:context=".activities.FullPlayerActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/mainColor">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:padding="10dp"
+            app:srcCompat="@drawable/ic_back" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvSongName"-->
+<!--            style="@style/tvStyle1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignTop="@+id/ivBack"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:ellipsize="marquee"-->
+<!--            android:gravity="center"-->
+<!--            android:marqueeRepeatLimit="marquee_forever"-->
+<!--            android:maxWidth="200dp"-->
+<!--            android:scrollHorizontally="true"-->
+<!--            android:text="@string/tvSongName"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/colorLight2"-->
+<!--            android:textSize="18sp" />-->
+
+        <TextView
+            android:id="@+id/playing"
+            style="@style/tvStyle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ivBack"
+            android:layout_centerInParent="true"
+            android:ellipsize="marquee"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxWidth="200dp"
+            android:scrollHorizontally="true"
+            android:text="Playing Now"
+            android:textAlignment="center"
+            android:textColor="@color/colorLight2"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Playing"/>
+
+        <ImageView
+            android:id="@+id/ivMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_menu_dots_vertical" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainColor">
+
+        <com.rd.PageIndicatorView
+            android:id="@+id/pageIndicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            app:piv_animationType="swap"
+            app:piv_dynamicCount="true"
+            app:piv_interactiveAnimation="true"
+            app:piv_padding="5dp"
+            app:piv_radius="5dp"
+            app:piv_selectedColor="#A5C0FF"
+            app:piv_unselectedColor="@color/colorLight13"
+            app:piv_viewPager="@+id/vpFullPlayer" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpFullPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/pageIndicatorView"
+            android:layout_marginTop="5dp" />
+    </RelativeLayout>
+</LinearLayout>

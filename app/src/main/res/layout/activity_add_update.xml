@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".activities.AddUpdateActivity"
+    >
+
+    <ImageView
+        android:id="@+id/ivClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        app:srcCompat="@drawable/ic_close_1" />
+
+    <TextView
+        android:id="@+id/tvDialogTitlePlaylist"
+        style="@style/tvStyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="@string/tvDialogTitlePlaylist"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorGradient3"
+        />
+
+    <EditText
+        android:id="@+id/etDialogContentPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="@string/etDialogContentPlaylist"
+        android:imeOptions="actionDone"
+        android:lines="1"
+        android:maxLength="100"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/colorGradient3"
+        android:textColorHint="@color/colorGradient3"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDialogCancelPlaylist"
+                style="@style/tvStyle1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:alpha="0.6"
+                android:background="@drawable/shape_corner_gradient2_10dp"
+                android:gravity="center"
+                android:text="@string/btnDialogCancelPlaylist"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/btnDialogActionPlaylist"
+                style="@style/tvStyle1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_corner_gradient1_10dp"
+                android:backgroundTint="#A5C0FF"
+                android:gravity="center"
+                android:text="@string/btnDialogActionPlaylist"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+<!--    <Button-->
+        android:id="@+id/btnDialogActionPlaylist"
+        style="@style/tvStyle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_bg"
+        android:backgroundTint="#8BBFBFBF"
+        android:gravity="center"
+        android:text="@string/btnDialogActionPlaylist"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/mainColor"
+        android:padding="10dp"
+        app:cornerRadius="20dp"/>
+
+
+
+</LinearLayout>
+</LinearLayout>
