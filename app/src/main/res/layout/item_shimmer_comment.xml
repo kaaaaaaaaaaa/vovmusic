@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:id="@+id/ivAvatarCommentShimmer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/shape_oval_corner_40dp"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignTop="@+id/ivAvatarCommentShimmer"
+            android:layout_marginStart="4dp"
+            android:layout_toEndOf="@+id/ivAvatarCommentShimmer"
+            android:background="@drawable/shape_corner_gray_10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="4dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:id="@+id/ivAvatarCommentShimmer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/shape_oval_corner_40dp"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="220dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/ivAvatarCommentShimmer1"
+            android:layout_marginStart="4dp"
+            android:layout_toEndOf="@+id/ivAvatarCommentShimmer1"
+            android:background="@drawable/shape_corner_gray_10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="4dp" />
+    </RelativeLayout>
+</LinearLayout>

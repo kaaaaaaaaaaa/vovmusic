@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.IMusic" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- <item name="android:windowTranslucentStatus">true</item> -->
+
+        <!-- Status bar color -->
+        <!--        <item name="android:statusBarColor" tools:targetApi="l">@color/colorMain3</item>-->
+    </style>
+
+    <style name="btnLogin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:fontFamily">@font/comfortaa</item>
+        <item name="android:textColor">@color/colorMain1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="tvStyle1">
+        <item name="android:fontFamily">@font/comfortaa</item>
+        <item name="android:textColor">@color/colorLight7</item>
+        <item name="android:lines">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="LoadingDialogTheme" parent="Widget.AppCompat.ProgressBar">
+        <item name="background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="WrapContentDialog" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="windowMinWidthMajor">0%</item>
+        <item name="windowMinWidthMinor">0%</item>
+    </style>
+
+    <!--        &lt;!&ndash; Primary brand color. &ndash;&gt;-->
+    <!--        <item name="colorPrimary">@color/purple_500</item>-->
+    <!--        <item name="colorPrimaryVariant">@color/purple_700</item>-->
+    <!--        <item name="colorOnPrimary">@color/white</item>-->
+    <!--        &lt;!&ndash; Secondary brand color. &ndash;&gt;-->
+    <!--        <item name="colorSecondary">@color/teal_200</item>-->
+    <!--        <item name="colorSecondaryVariant">@color/teal_700</item>-->
+    <!--        <item name="colorOnSecondary">@color/black</item>-->
+    <!--        &lt;!&ndash; Status bar color. &ndash;&gt;-->
+    <!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+    <!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+</resources>

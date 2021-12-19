@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@color/mainColor">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSongImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="1dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/ivItemSong"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/logovov" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/llSongInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cvSongImage"
+        android:layout_alignBottom="@+id/cvSongImage"
+        android:layout_toStartOf="@+id/ivItemSongLove"
+        android:layout_toEndOf="@+id/cvSongImage"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvItemSongName"
+            style="@style/tvStyle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="10dp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:text="@string/tvChartSongName"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorLight2"
+            />
+
+        <TextView
+            android:id="@+id/tvItemSongSinger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/tvChartSongSinger"
+            android:textColor="#A5C0FF"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivItemSongMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/llSongInfo"
+        android:layout_alignBottom="@+id/llSongInfo"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:padding="2dp"
+        app:srcCompat="@drawable/ic_menu_dots_vertical" />
+
+    <ImageView
+        android:id="@+id/ivItemSongLove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/llSongInfo"
+        android:layout_alignBottom="@+id/llSongInfo"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@+id/ivItemSongMore"
+        android:padding="2dp"
+        app:srcCompat="@drawable/ic_not_favorite" />
+</RelativeLayout>

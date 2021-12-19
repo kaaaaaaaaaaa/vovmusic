@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ChartFragment"
+    android:background="@color/mainColor">
+
+    <TextView
+        android:id="@+id/tvChart"
+        style="@style/tvStyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="marquee"
+        android:fontFamily="@"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="#vovChart"
+        android:textAlignment="center"
+        android:textColor="@color/colorLight2"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@color/mainColor"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/sflItemSong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/item_shimmer_song" />
+
+                <include layout="@layout/item_shimmer_song" />
+
+                <include layout="@layout/item_shimmer_song" />
+
+                <include layout="@layout/item_shimmer_song" />
+
+                <include layout="@layout/item_shimmer_song" />
+
+                <include layout="@layout/item_shimmer_song" />
+
+                <include layout="@layout/item_shimmer_song" />
+
+                <include layout="@layout/item_shimmer_song" />
+
+                <include layout="@layout/item_shimmer_song" />
+
+                <include layout="@layout/item_shimmer_song" />
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layoutAnimation="@anim/layout_down_to_up"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

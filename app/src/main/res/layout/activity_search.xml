@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llRootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    android:orientation="vertical"
+    tools:context=".activities.SearchActivity">
+
+    <RelativeLayout
+        android:id="@+id/topNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/mainColor">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:padding="10dp"
+            app:srcCompat="@drawable/ic_back" />
+
+        <EditText
+            android:id="@+id/etSearchBox"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/ivBack"
+            android:background="@drawable/edittext_bg"
+            android:fontFamily="@font/comfortaa"
+            android:hint="@string/etHint1"
+            android:imeOptions="actionDone"
+            android:lines="1"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:singleLine="true"
+            android:textColor="@color/colorGradient3"
+            android:textColorHint="#6CFFFFFF"
+            android:textSize="15sp"
+            />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvSearchHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="marquee"
+            android:fontFamily="@font/comfortaa"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/tvSearchHint"
+            android:textColor="@color/colorLight9"
+            android:textSize="18sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvSearchResult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp" />
+    </FrameLayout>
+</LinearLayout>
+

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.PersonalPlaylistActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlTopFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainColor">
+
+        <ImageView
+            android:id="@+id/ivPersonalPlaylistBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:padding="10dp"
+            app:srcCompat="@drawable/ic_angle_left" />
+
+        <TextView
+            android:id="@+id/tvPersonalPlaylistTitle"
+            style="@style/tvStyle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ivPersonalPlaylistBack"
+            android:layout_alignBottom="@+id/ivPersonalPlaylistBack"
+            android:layout_centerInParent="true"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxWidth="200dp"
+            android:scrollHorizontally="true"
+            android:text="@string/tvPersonalPlaylistTitle"
+            android:textAlignment="center"
+            android:textColor="@color/colorLight2"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnPersonalPlayAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPersonalPlaylistTitle"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_corner_10dp"
+            android:backgroundTint="@color/secondColor"
+            android:drawableStart="@drawable/ic_play_2"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/btnPersonalPlayAll"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/mainColor"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+
+        <ImageView
+            android:id="@+id/ivPersonalPlaylistMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ivPersonalPlaylistBack"
+            android:layout_alignBottom="@+id/ivPersonalPlaylistBack"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_menu_dots_vertical" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/btnPersonalPlayAll"
+            android:layout_marginTop="5dp"
+            android:background="@color/mainColor"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/sflItemSong"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/mainColor"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/item_shimmer_song" />
+
+                    <include layout="@layout/item_shimmer_song" />
+
+                    <include layout="@layout/item_shimmer_song" />
+
+                    <include layout="@layout/item_shimmer_song" />
+
+                    <include layout="@layout/item_shimmer_song" />
+
+                    <include layout="@layout/item_shimmer_song" />
+
+                    <include layout="@layout/item_shimmer_song" />
+
+                    <include layout="@layout/item_shimmer_song" />
+
+                    <include layout="@layout/item_shimmer_song" />
+
+                    <include layout="@layout/item_shimmer_song" />
+                </LinearLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <TextView
+                android:id="@+id/tvEmptySong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="50dp"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/comfortaa"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/tvEmptySong"
+                android:textColor="@color/colorLight9"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvPersonalPlaylist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:visibility="gone" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

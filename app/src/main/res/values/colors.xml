@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorMain1">#FFFFFF</color>
+    <color name="colorMain2">#000000</color>
+
+    <color name="colorMain3">#F475C2</color>
+
+    <color name="colorMain4">#FF0000</color>
+    <color name="colorMain5">#CAE7FF</color>
+    <color name="colorMain6">#5C6163</color>
+    <color name="colorMain7">#FFE500</color>
+    <color name="colorMain8">#66BB6A</color>
+
+    <color name="btn_loginfb">#1877F2</color>
+    <color name="btn_loginzl">#333333</color>
+
+    <color name="colorGradient1">#F5576C</color>
+    <color name="colorGradient2">#F093FB</color>
+
+    <color name="colorGradient3">#CFD9DF</color>
+    <color name="colorGradient4">#E2EBF0</color>
+
+    <!-- - - - - - - - - - Light Mode - - - - - - - - - -->
+    <color name="colorLight1">#5C6163</color>
+    <color name="colorLight2">#F4F4F8</color>
+    <color name="colorLight3">#F475C2</color>
+    <color name="colorLight4">#FFFFFF</color> // màu chủ đạo sáng
+    <color name="colorLight5">#5C6163</color>
+    <color name="colorLight6">#F475C2</color> // Thanh toolbar
+    <color name="colorLight7">#000000</color> // Màu chữ sáng
+    <color name="colorLight8">#FFFFFF</color>
+    <color name="colorLight9">#4D4E4E</color>
+    <color name="colorLight10">#F1F1F1</color>
+    <color name="colorLight11">#ECECEC</color>
+    <color name="colorLight12">#BFBFBF</color>
+    <color name="colorLight13">#DDDDDD</color>
+
+    <color name="mainColor">#091227</color>
+    <color name="secondColor">#A5C0FF</color>
+
+
+
+<!--    &lt;!&ndash; - - - - - - - - - Dark Mode - - - - - - - - - &ndash;&gt;-->
+<!--    <color name="colorDark1">#5C6163</color>-->
+<!--    <color name="colorDark2">#F4F4F8</color>-->
+<!--    <color name="colorDark3">#F475C2</color>-->
+<!--    <color name="colorDark4">#1E1E1E</color> // màu chủ đạo tối-->
+<!--    <color name="colorDark5">#5C6163</color>-->
+<!--    <color name="colorDark6">#F475C2</color> // Thanh toolbar-->
+<!--    <color name="colorDark7">#FFFFFF</color> // Màu chữ tối-->
+<!--    <color name="colorDark8">#FFFFFF</color>-->
+<!--    <color name="colorDark9">#4D4E4E</color>-->
+<!--    <color name="colorDark10">#F1F1F1</color>-->
+<!--    <color name="colorDark11">#ECECEC</color>-->
+<!--    <color name="colorDark12">#BFBFBF</color>-->
+<!--    <color name="colorDark13">#DDDDDD</color>-->
+</resources>

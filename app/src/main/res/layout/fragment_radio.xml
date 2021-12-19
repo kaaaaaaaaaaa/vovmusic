@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLight4"
+    tools:context=".fragments.RadioFragment">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/btnSwitchTheme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/astronaut" />
+
+    <TextView
+        android:id="@+id/tvStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/tvStop"
+        android:textAlignment="center"
+        android:textColor="@color/colorLight7"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!--    <androidx.core.widget.NestedScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:fillViewport="true">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="@color/colorLight4"-->
+    <!--            android:gravity="center"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/tvRoom1"-->
+    <!--                style="@style/tvStyle1"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:ellipsize="marquee"-->
+    <!--                android:marqueeRepeatLimit="marquee_forever"-->
+    <!--                android:scrollHorizontally="true"-->
+    <!--                android:singleLine="true"-->
+    <!--                android:text="@string/tvRoom1"-->
+    <!--                android:textSize="18sp" />-->
+
+    <!--            <androidx.cardview.widget.CardView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginBottom="20dp"-->
+    <!--                app:cardCornerRadius="20dp"-->
+    <!--                app:cardElevation="10dp"-->
+    <!--                app:cardUseCompatPadding="true">-->
+
+    <!--                <ImageView-->
+    <!--                    android:id="@+id/ivRoom1"-->
+    <!--                    android:layout_width="250dp"-->
+    <!--                    android:layout_height="250dp"-->
+    <!--                    android:scaleType="fitXY"-->
+    <!--                    app:srcCompat="@drawable/ic_logo" />-->
+    <!--            </androidx.cardview.widget.CardView>-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/tvRoom2"-->
+    <!--                style="@style/tvStyle1"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:ellipsize="marquee"-->
+    <!--                android:marqueeRepeatLimit="marquee_forever"-->
+    <!--                android:scrollHorizontally="true"-->
+    <!--                android:singleLine="true"-->
+    <!--                android:text="@string/tvRoom2"-->
+    <!--                android:textSize="18sp" />-->
+
+    <!--            <androidx.cardview.widget.CardView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                app:cardCornerRadius="20dp"-->
+    <!--                app:cardElevation="10dp"-->
+    <!--                app:cardUseCompatPadding="true">-->
+
+    <!--                <ImageView-->
+    <!--                    android:id="@+id/ivRoom2"-->
+    <!--                    android:layout_width="250dp"-->
+    <!--                    android:layout_height="250dp"-->
+    <!--                    android:scaleType="fitXY"-->
+    <!--                    app:srcCompat="@drawable/ic_logo" />-->
+    <!--            </androidx.cardview.widget.CardView>-->
+    <!--        </LinearLayout>-->
+    <!--    </androidx.core.widget.NestedScrollView>-->
+</FrameLayout>

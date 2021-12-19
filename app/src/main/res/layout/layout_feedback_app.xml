@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/shape_corner_16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvFeedbackTitle"
+        style="@style/tvStyle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_corner_white_20dp_topleft_topright"
+        android:backgroundTint="@color/secondColor"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="10dp"
+        android:scrollHorizontally="true"
+        android:text="@string/tvFeedbackTitle"
+        android:textColor="@color/colorLight2"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RatingBar
+            android:id="@+id/rbRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:progressBackgroundTint="@color/colorGradient3"
+            android:progressTint="@color/colorMain7"
+            android:rating="4"
+            android:stepSize="0.5" />
+
+        <TextView
+            android:id="@+id/tvShowStar"
+            style="@style/tvStyle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:text="@string/tvShowStar"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etFeedbackContent"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/shape_corner_10dp_border_1"
+            android:fontFamily="@font/comfortaa"
+            android:gravity="top"
+            android:hint="@string/etFeedbackContent"
+            android:imeOptions="actionDone"
+            android:lineSpacingExtra="5dp"
+            android:maxLength="500"
+            android:overScrollMode="always"
+            android:padding="12dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:textColor="@color/colorLight9"
+            android:textColorHint="@color/colorLight9"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnFeedbackCancel"
+                style="@style/tvStyle1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:alpha="0.6"
+                android:background="@drawable/shape_corner_gradient2_10dp"
+                android:gravity="center"
+                android:text="@string/btnDialogCancelPlaylist"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/btnSendFeedback"
+                style="@style/tvStyle1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_corner_10dp"
+                android:backgroundTint="@color/secondColor"
+                android:gravity="center"
+                android:text="@string/btnSendFeedback"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorLight2"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

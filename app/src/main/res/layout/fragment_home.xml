@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    tools:context=".fragments.HomeFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="30dp">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/isvSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:sliderAnimationDuration="500"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="500"
+                    app:sliderIndicatorRadius="1dp"
+                    app:sliderIndicatorSelectedColor="@color/secondColor"
+                    app:sliderIndicatorUnselectedColor="@color/colorMain1"
+                    app:sliderScrollTimeInSec="4"
+                    app:sliderStartAutoCycle="true"
+                    android:background="@color/mainColor">
+
+                </com.smarteist.autoimageslider.SliderView>
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:id="@+id/rlAlbum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:id="@+id/tvAlbum"
+                    style="@style/tvStyle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:ellipsize="marquee"
+                    android:fontFamily="@font/rubik_bold"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/tvAlbum"
+                    android:textColor="@color/colorGradient3"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivAlbumMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tvAlbum"
+                    android:layout_alignBottom="@+id/tvAlbum"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_angle_right" />
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/sflItemAlbum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvAlbum"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <include layout="@layout/item_shimmer_album" />
+
+                    </LinearLayout>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/vpg2Album"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvAlbum"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:paddingStart="70dp"
+                    android:paddingEnd="70dp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:id="@+id/tvTheme"
+                    style="@style/tvStyle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center"
+                    android:ellipsize="marquee"
+                    android:fontFamily="@font/rubik_bold"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/tvThemeFragment"
+                    android:textColor="@color/colorGradient3"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <ImageView
+                    android:id="@+id/ivThemeMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tvTheme"
+                    android:layout_alignBottom="@+id/tvTheme"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_angle_right" />
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/sflItemTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvTheme"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <include layout="@layout/item_shimmer_theme" />
+
+                    </LinearLayout>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tvTheme"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlPlaylist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:id="@+id/tvPlaylist"
+                    style="@style/tvStyle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:ellipsize="marquee"
+                    android:fontFamily="@font/rubik_bold"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/tvPlaylist"
+                    android:textColor="@color/colorGradient3"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivPlaylistMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tvPlaylist"
+                    android:layout_alignBottom="@+id/tvPlaylist"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_angle_right" />
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/sflItemPlaylist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvPlaylist"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <include layout="@layout/item_shimmer_playlist" />
+
+                        <include layout="@layout/item_shimmer_playlist" />
+
+                        <include layout="@layout/item_shimmer_playlist" />
+
+                    </LinearLayout>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvPlaylist"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tvPlaylist"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

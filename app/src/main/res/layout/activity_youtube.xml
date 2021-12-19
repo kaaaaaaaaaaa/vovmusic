@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    android:orientation="vertical"
+    tools:context=".activities.YoutubeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/mainColor">
+
+        <Button
+            android:id="@+id/ivBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ic_back"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/colorLight2" />
+
+        <TextView
+            android:id="@+id/tvSongName"
+            style="@style/tvStyle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ivBack"
+            android:layout_centerInParent="true"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxWidth="200dp"
+            android:scrollHorizontally="true"
+            android:text="@string/tvSongName"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textColor="@color/colorLight2"/>
+
+        <TextView
+            android:id="@+id/tvArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSongName"
+            android:layout_centerInParent="true"
+            android:ellipsize="marquee"
+            android:fontFamily="@font/comfortaa"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxWidth="200dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/tvArtist"
+            android:textAlignment="center"
+            android:textColor="@color/colorLight2"
+            android:textSize="12sp"
+            android:textStyle="normal"
+            />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtubeView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.google.android.youtube.player.YouTubePlayerView>
+    </LinearLayout>
+</LinearLayout>
