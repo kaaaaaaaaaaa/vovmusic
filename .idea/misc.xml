@@ -122,17 +122,25 @@
         <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/layout_song_more.xml" value="0.5" />
         <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/layout_textview_dialog.xml" value="0.33" />
         <entry key="..\:/Android Studio/iMusic_Android/app/src/main/res/layout/layout_userplaylist_more.xml" value="0.33" />
+        <entry key="..\:/Android Studio/vovmusic/app/src/main/res/drawable/border_bg.xml" value="0.32760416666666664" />
+        <entry key="..\:/Android Studio/vovmusic/app/src/main/res/drawable/ic_back.xml" value="0.32760416666666664" />
+        <entry key="..\:/Android Studio/vovmusic/app/src/main/res/drawable/ic_bell.xml" value="0.32760416666666664" />
+        <entry key="..\:/Android Studio/vovmusic/app/src/main/res/drawable/ic_close_1.xml" value="0.32760416666666664" />
+        <entry key="..\:/Android Studio/vovmusic/app/src/main/res/drawable/ic_microphone.xml" value="0.32760416666666664" />
+        <entry key="..\:/Android Studio/vovmusic/app/src/main/res/drawable/ic_music_alt.xml" value="0.32760416666666664" />
+        <entry key="..\:/Android Studio/vovmusic/app/src/main/res/drawable/ic_next.xml" value="0.32760416666666664" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/drawable/ic_play_1.xml" value="0.31927083333333334" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/drawable/ic_play_2.xml" value="0.31927083333333334" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/drawable/ic_play_2_pink.xml" value="0.31927083333333334" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/drawable/ic_play_3.xml" value="0.31927083333333334" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/drawable/ic_playlist_cover.xml" value="0.31927083333333334" />
+        <entry key="..\:/Android Studio/vovmusic/app/src/main/res/drawable/ic_shuffle_check.xml" value="0.32760416666666664" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/drawable/input_text.xml" value="0.35208333333333336" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/layout/activity_add_update.xml" value="0.2989583333333333" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/layout/activity_full.xml" value="0.33177083333333335" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/layout/activity_full_player.xml" value="0.33177083333333335" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/layout/activity_genre.xml" value="0.2989583333333333" />
-        <entry key="..\:/Android Studio/vovmusic/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Android Studio/vovmusic/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/layout/activity_personal_page.xml" value="0.2989583333333333" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/layout/activity_personal_playlist.xml" value="0.2989583333333333" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/layout/activity_radio.xml" value="0.2989583333333333" />
@@ -171,6 +179,7 @@
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/layout/layout_textview_dialog.xml" value="0.5" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/layout/layout_userplaylist_more.xml" value="0.2989583333333333" />
         <entry key="..\:/Android Studio/vovmusic/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3265625" />
+        <entry key="..\:/Android Studio/vovmusic/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.35208333333333336" />
         <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/btn_loginfb.xml" value="0.2703125" />
         <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/btn_logingg.xml" value="0.2703125" />
         <entry key="..\:/mobile/iMusic_Android_Java/app/src/main/res/drawable/ic_copy.xml" value="0.2703125" />

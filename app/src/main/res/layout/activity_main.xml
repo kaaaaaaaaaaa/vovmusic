@@ -9,85 +9,6 @@
     android:paddingRight="40dp"
     tools:context=".activities.MainActivity">
 
-    <RelativeLayout
-        android:id="@+id/input_text2"
-        android:layout_width="343dp"
-        android:layout_height="47.98dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="465dp"
-        android:background="@drawable/input_text"
-        android:elevation="4dp">
-
-        <TextView
-            android:id="@+id/password"
-            android:layout_width="119dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"
-            android:gravity="top"
-            android:lineSpacingExtra="7sp"
-            android:text="Password: "
-            android:textColor="#fff"
-            android:translationY="-2.1sp" />
-
-        <EditText
-            android:id="@+id/some_id"
-            android:layout_width="174dp"
-            android:layout_height="20.07dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="21dp"
-            android:gravity="top"
-            android:lineSpacingExtra="6sp"
-            android:text="test"
-            android:textColor="#fff"
-            android:translationY="-3.14sp" />
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/input_text"
-        android:layout_width="343dp"
-        android:layout_height="47.98dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-
-        android:layout_marginTop="400dp"
-        android:background="@drawable/input_text"
-        android:elevation="4dp">
-
-        <TextView
-            android:id="@+id/email_addre"
-            android:layout_width="114dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"
-            android:gravity="top"
-            android:lineSpacingExtra="7sp"
-            android:text="Email:"
-            android:textColor="#fff"
-            android:translationY="-2.1sp" />
-
-        <EditText
-            android:id="@+id/gm_uit_edu_"
-            android:layout_width="174dp"
-            android:layout_height="20.07dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="15dp"
-
-            android:layout_marginTop="18dp"
-            android:gravity="top"
-            android:lineSpacingExtra="6sp"
-            android:translationY="-3.14sp" />
-    </RelativeLayout>
-
     <!--    <TextView-->
 <!--        android:id="@+id/tvAppName"-->
 <!--        android:layout_width="wrap_content"-->
@@ -104,6 +25,96 @@
 <!--        android:textColor="@color/colorMain2"-->
 <!--        android:textSize="30sp"-->
 <!--        android:textStyle="bold" />-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ralatuv">
+
+        <RelativeLayout
+            android:id="@+id/input_text"
+            android:layout_width="343dp"
+            android:layout_height="47.98dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="299dp"
+            android:background="@drawable/input_text"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/email_addre"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:gravity="top"
+                android:lineSpacingExtra="7sp"
+                android:text="Email:"
+                android:textColor="#fff"
+                android:translationY="-2.1sp" />
+
+            <EditText
+                android:id="@+id/gm_uit_edu_"
+                android:layout_width="174dp"
+                android:layout_height="20.07dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="25dp"
+                android:gravity="top"
+                android:inputType="text"
+                android:lineSpacingExtra="6sp"
+                android:textColorHint="@color/secondColor"
+                android:translationY="-3.14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/input_text2"
+            android:layout_width="343dp"
+            android:layout_height="47.98dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="364dp"
+            android:background="@drawable/input_text"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-1dp"
+                android:gravity="top"
+                android:lineSpacingExtra="7sp"
+                android:text="Password: "
+                android:textColor="#fff"
+                android:translationY="-2.1sp" />
+
+            <EditText
+                android:id="@+id/some_id"
+                android:layout_width="174dp"
+                android:layout_height="20.07dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="30dp"
+                android:gravity="top"
+                android:lineSpacingExtra="6sp"
+                android:text="test"
+                android:textColor="#fff"
+                android:translationY="-3.14sp"
+                android:inputType="text"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
 
     <TextView
         android:id="@+id/Logo"
@@ -124,26 +135,53 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+
         />
 
-
     <Button
-        android:id="@+id/btnLoginFacebook"
+        android:id="@+id/login"
         style="@style/btnLogin"
         android:layout_above="@+id/btnLoginGoogle"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/btn_loginfb"
-        android:drawableStart="@drawable/logo_facebook"
-        android:text="@string/btnLoginFacebook" />
+        android:layout_below="@+id/ralatuv"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="59dp"
+        android:background="@drawable/shape_corner_gray_10dp"
+        android:backgroundTint="@color/secondColor"
+        android:text="Login"
+        android:textColor="@color/mainColor"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="628dp">
+
+    </RelativeLayout>
 
     <Button
         android:id="@+id/btnLoginGoogle"
         style="@style/btnLogin"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="30dp"
-        android:background="@drawable/btn_logingg"
-        android:drawableStart="@drawable/logo_google"
-        android:text="@string/btnLoginGoogle" />
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="185dp"
+        android:background="@drawable/logo_google" />
+
+    <Button
+        android:id="@+id/btnLoginFacebook"
+        style="@style/btnLogin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="185dp"
+        android:layout_toStartOf="@+id/btnLoginGoogle"
+        android:background="@drawable/logo_facebook"
+        android:backgroundTint="@color/btn_loginfb" />
+
 
     <!--        <Button-->
     <!--            android:id="@+id/btnLoginZL"-->
